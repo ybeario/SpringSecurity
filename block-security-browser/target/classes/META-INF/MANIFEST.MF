@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: block-security-browser
+Implementation-Version: 1.0.0-SNAPSHOT
+Built-By: Y.bear
+Implementation-Vendor-Id: com.bear.security
+Build-Jdk: 1.8.0_161
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/block-security/block-security-browser
+Created-By: Maven Integration for Eclipse
+

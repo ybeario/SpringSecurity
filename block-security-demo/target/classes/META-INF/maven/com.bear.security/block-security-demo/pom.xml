@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.bear.security</groupId>
+		<artifactId>block-security</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	<artifactId>block-security-demo</artifactId>
+	<dependencies>
+		<dependency>
+			<groupId>com.bear.security</groupId>
+			<artifactId>block-security-browser</artifactId>
+			<version>${block.security.version}</version>
+		</dependency>
+	</dependencies>
+	<!--该插件帮助打包出demo.jar（20MB）文件和demo.jar.original demo.jar(3KB) 可以直接运行，包含了maven导入的包，而demo.jar.original不包含maven导入的包，无法直接运行 -->
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+		<finalName>demo</finalName>
+	</build>
+</project>
