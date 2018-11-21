@@ -14,6 +14,25 @@
 			<artifactId>block-security-browser</artifactId>
 			<version>${block.security.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-aop</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.5</version>
+		</dependency>
 	</dependencies>
 	<!--该插件帮助打包出demo.jar（20MB）文件和demo.jar.original demo.jar(3KB) 可以直接运行，包含了maven导入的包，而demo.jar.original不包含maven导入的包，无法直接运行 -->
 	<build>

@@ -32,5 +32,14 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Y.bear/.m2/repository/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13.jar" sourcepath="C:/Users/Y.bear/.m2/repository/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.aspectj"/>
+			<attribute name="maven.artifactId" value="aspectjweaver"/>
+			<attribute name="maven.version" value="1.8.13"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
